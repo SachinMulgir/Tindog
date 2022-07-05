@@ -1,0 +1,190 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+em {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: white;
+  margin: 15% 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.5;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0 8%;
+}
+
+/* TITLE */
+#title {
+  background-color: #ff4c68;
+  height: 90vh;
+}
+
+.title-btn {
+  margin-right: 5%;
+}
+
+.collapse {
+  padding: 0 25px;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+}
+
+.title-image {
+  margin: 5% 5%;
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-link {
+  margin: 0 25px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+/* FEATURES */
+#features {
+  padding: 8% 15%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.feature-img {
+  font-size: 3rem;
+  color: #ef8172;
+  margin: 5%;
+}
+
+.feature-img:hover {
+  color: #ff4c68;
+}
+
+/* TESTIMONIALS */
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 5% 18%;
+}
+
+/* PRESS */
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.press-image {
+  width: 14%;
+  margin: 0 2% 8%;
+}
+
+/* PRICING */
+#pricing {
+  text-align: center;
+  line-height: 1.5;
+}
+.pricing-header{
+  margin: 20px auto 5px;
+}
+.btn {
+  margin: 10px auto;
+}
+.pricing-card {
+  text-align: center;
+  margin:0 10px;
+  border: 1px solid black;
+}
+
+
+/* CTA SECTION */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+.cta-section{
+  margin: 30px auto;
+}
+.cta-btn{
+  margin:20px 15px 120px;
+}
+.cta-header{
+  color: white;
+  font-size: 4rem;
+  width: 70%;
+  margin: 80px auto 50px;
+  padding-top: 80px;
+  line-height: 1.5;
+}
+
+/* FOOTER SECTION */
+#footer{
+  text-align: center;
+}
+.footer{
+  margin: 100px auto 150px;
+  line-height: 2;
+}
+.footer-icon{
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-width:769px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: relative;
+    transform: rotate(0);
+    width: 30%;
+  }
+}
